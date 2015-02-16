@@ -2,4 +2,42 @@
 
 /* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
+body {
+    background-image: url("http://i36.photobucket.com/albums/e40/Brilliantbuggar/Ninja_duel___simple_by_Vital_Lethal.jpg");
+    position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
+/*
+.rule line {
+    stroke: #eee;
+    shape-rendering: crispEdges;
+}
+
+.rule line.axis {
+    stroke: #000;
+}
+
+.area {
+    fill: lightsteelblue;
+}*/
+
+.line, circle.area {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+.player {
+    height : 300px;
+    width : 300px;
+    fill: url('asteroid.png');
+    position: absolute;
+    display: block;
+}
+
+
+ .enemy {
+}
